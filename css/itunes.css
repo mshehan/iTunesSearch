@@ -1,0 +1,28 @@
+/*
+/Matthew Shehan
+//mshehan@my.smccd.edu
+//CIS 
+//114 OL
+//itunes.css
+//final
+// 05-27-2016
+ */
+.songs-search-result {
+    border: 1px solid Gray;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.clear {
+    clear: both;
+}
+.songs-search-result  .label {
+    display: inline-block;
+	width: 200px;
+}
+.logo {
+    float:left; 
+}
+.songs-search-result .image {
+    float: right;
+
+}
