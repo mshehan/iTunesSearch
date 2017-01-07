@@ -31,7 +31,7 @@ var iTunes = {
       //callback: 'handleTunesSearchResults'
 		 };
 		var params = this.urlEncode(params);
-		var url = 'http://itunes.apple.com/search?' + params + '&callback=?';
+		var url = '//itunes.apple.com/search?' + params + '&callback=?';
     
     $.getJSON(url, function(arg){
       var results = arg.results;
